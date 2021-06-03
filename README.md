@@ -3,7 +3,6 @@
 + Summary.
 + Tools used.
 + Description of the data.
-+ Links for the code.
 
 ## 1. Summary
 
@@ -72,10 +71,6 @@ The data from the Project was fetched from the Tweepy Twitter API. It compiled t
 
 Financial data was received from yfinance. The information being fetched from each ticker is the Open, High, Low, Close, Adj Close and Volume.
 
-## 4. Link to our code.
-
-* [Notebook of the code](DEGA.ipynb)
-* [DEGA tool- a tool to save tweets](DEGA_TOOL.ipynb)
 
 
 
