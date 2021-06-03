@@ -11,11 +11,11 @@ With the rise in social media influence on stock market returns, I thought it wo
 
 Top Tickers:
 
-<img src ="Pictures/ticker_symbols.png" alt="twitter" width="300"/>
+<img src ="Photos/ticker_symbols.png" alt="twitter" width="300"/>
 
 ## 2. Tools used
 
-<img src ="Pictures/twitter_bird.png" alt="twitter" width="300"/>
+<img src ="Photos/twitter_bird.png" alt="twitter" width="300"/>
 
 In order to run the notebook, you will need a Twitter developer account. After being approved, consumer keys, consumer_secrets, access_token and access_token_secret to access the API will be provided. Here is a link to help you start learning about the Twitter API, [Twitter Starter Guide.](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
 
@@ -66,7 +66,7 @@ from textblob import TextBlob
 
 ## 3. Description of the data.
 
-<img src ="Pictures/twitter_stock_influencers.jpg" alt="twitter" width="300"/>
+<img src ="Photos/twitter_stock_influencers.jpg" alt="twitter" width="300"/>
 
 The data from the Project was fetched from the Tweepy Twitter API. It compiled tweets from the curated list of 100 different finance gurus and influencers. 
 
