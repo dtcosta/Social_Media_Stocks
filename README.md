@@ -6,21 +6,23 @@
 + Summary
 + Tools used
 + Results 
++ Links to code 
 
 ## 1. Summary
 
-With the rise in social media influence on stock market returns, I thought it would be interesting to analyze data and see if there is a correlation between frequency of mention and stock price movement. This was achieved by gathering data from the Tweepy Twitter API analyzing 20,000 tweets from various finance gurus and influencers within a week timeframe. With the data gathered, tickers were counted to find the most discussed. 
+With the rise in social media influence on stock market returns, I thought it would be interesting to analyze data and see if there is a correlation between frequency of mention and stock price movement. This was achieved by gathering data from the Tweepy Twitter API analyzing 20,000 tweets from various finance gurus and influencers within a week timeframe. This curated list of Twitter handles could be used to gage interest in stocks. With the data gathered, tickers were counted to find the most discussed. 
 
 Top Tickers:
 
 <img src ="Photos/tickers_symbols.png" alt="twitter" width="250"/>
 
+From our date the most discussed stocks were AAPL, TSLA, CCIV, GME and AMC.
+
 ## 2. Tools used
 
 <img src ="Photos/twitter_bird.png" alt="twitter" width="750"/>
 
-In order to run the notebook, you will need a Twitter developer account. After being approved, consumer keys, consumer_secrets, access_token and access_token_secret to access the API will be provided. Here is a link to help you start learning about the Twitter API, [Twitter Starter Guide.](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
-
+In order to run the notebook with the code, you need a twitter developer account, after being approved, you will receive consumer keys, consumer_secrets, access_token and access_token_secret to access the API. Here is a link to help you start learning about the Twitter API, [Twitter Starter Guide.](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
 Once you have the keys, you must create a file called API.env on the same folder you are running the notebook with the following:
 
 ```
@@ -29,10 +31,14 @@ consumer_secrets = "Enter it here"
 access_token = "Enter it here"
 access_token_secret = "Enter it here"
 ```
+Once you have that set up you are going to need python. This can be done by going to the [python](https://www.python.org/downloads/) website if you don't have it.
+
+I am using a jupyter notebook in an anaconda environment. If you do not have anaconda, check the [Anaconda installation documentation.](https://docs.anaconda.com/anaconda/install/) I also downloaded all the pips in a conda environment. If you don't have and environment set up in conda, follow the commands/instructions below.
 
 Python package downloads:
 
 ```
+
 pip install tweepy
 pip install yfinance 
 pip install -U python-dotenv
@@ -45,8 +51,8 @@ pip install datetime
 pip install alpaca-trade-api
 pip install pandas
 ```
+These are the libraries imported to run the notebook from the pip's from above.
 
-Imports:
 ```
 import tweepy
 import pandas as pd
@@ -66,7 +72,7 @@ import alpaca_trade_api as tradeapi
 from textblob import TextBlob
 ```
 
-## 3. Description of the data.
+## 3. Results
 
 I decided to remove SPY and QQQ ETF from the results and built an equally weighted portfolio of the remaining top five stocks. 
 
@@ -77,5 +83,10 @@ Financial data was received from yfinance. The information being fetched from ea
 
 <img src ="Photos/newplot%20(11).png" alt="portfolio" width="950"/>
 
+## 4. Link to the code.
 
+* [Notebook of the code](DEGA.ipynb)
+* [DEGA tool- a tool to save tweets](DEGA_TOOL.ipynb)
+* [Portfolio Returns](portfolio_returns.ipynb)
+* [Tickergrab Tool](tickergrab.ipynb)
 
