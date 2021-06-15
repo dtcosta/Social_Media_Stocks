@@ -10,7 +10,7 @@ With the rise in social media influence on stock market returns, I thought it wo
 
 Top Tickers:
 
-<img src ="Photos/ticker_symbols.png" alt="twitter" width="300"/>
+<img src ="Photos/tickers_symbols.png" alt="twitter" width="300"/>
 
 ## 2. Tools used
 
