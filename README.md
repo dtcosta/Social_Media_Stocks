@@ -86,7 +86,7 @@ Financial data was received from yfinance. The information being fetched from ea
 ## 4. Link to the code.
 
 * [Notebook of the code](Code/DEGA.ipynb)
-* [DEGA tool- a tool to save tweets](DEGA_TOOL.ipynb)
-* [Portfolio Returns](portfolio_returns.ipynb)
-* [Tickergrab Tool](tickergrab.ipynb)
+* [DEGA tool- a tool to save tweets](Code/DEGA_TOOL.ipynb)
+* [Portfolio Returns](Code/portfolio_returns.ipynb)
+* [Tickergrab Tool](Code/tickergrab.ipynb)
 
