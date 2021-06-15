@@ -10,7 +10,7 @@
 
 ## 1. Summary
 
-With the rise in social media influence on stock market returns, I thought it would be interesting to analyze data and see if there is a correlation between frequency of mention and stock price movement. This was achieved by gathering data from the Tweepy Twitter API analyzing 20,000 tweets from various finance gurus and influencers within a week timeframe. This curated list of Twitter handles could be used to gage interest in stocks. With the data gathered, tickers were counted to find the most discussed. 
+With the rise in social media influence on stock market returns, I thought it would be interesting to analyze data and see if there is a correlation between frequency of mention and stock price movement. This was achieved by gathering data from the Tweepy Twitter API analyzing 20,000 tweets from various finance gurus and influencers within a week timeframe. This curated list of Twitter handles could be used to gage interest in stocks can be found here [Handles](DEGA_NAMES.csv) With the data gathered, tickers were counted to find the most discussed. 
 
 Top Tickers:
 
@@ -83,10 +83,12 @@ Financial data was received from yfinance. The information being fetched from ea
 
 <img src ="Photos/newplot%20(11).png" alt="portfolio" width="950"/>
 
-## 4. Link to the code.
+## 4. Link to the code
+
+
 
 * [Notebook of the code](Code/DEGA.ipynb)
 * [DEGA tool- a tool to save tweets](Code/DEGA_TOOL.ipynb)
-* [Portfolio Returns](Code/portfolio_returns.ipynb)
-* [Tickergrab Tool](Code/tickergrab.ipynb)
+* [Portfolio Returns notebook](Code/portfolio_returns.ipynb)
+* [Tickergrab Tool - from txt file](Code/tickergrab.ipynb)
 
