@@ -10,9 +10,10 @@
 
 ## 1. Summary
 
-With the rise in social media influence on stock market returns, I thought it would be interesting to analyze data and see if there is a correlation between frequency of mention and stock price movement. This was achieved by gathering data from the Tweepy Twitter API analyzing 20,000 tweets from various finance gurus and influencers within a week timeframe. This curated list of Twitter handles could be used to gage interest in stocks can be found here [Handles](DEGA_NAMES.csv) With the data gathered, tickers were counted to find the most discussed. 
+With the rise in social media influence on stock market returns, I thought it would be interesting to analyze data and see if there is a correlation between frequency of mention and stock price movement. This was achieved by gathering data from the Tweepy Twitter API analyzing 20,000 tweets from various finance gurus and influencers within a week timeframe. This curated list of Twitter handles could be used to gage interest in stocks can be found here: [Handles](DEGA_NAMES.csv) 
 
-Top Tickers:
+Utilizing the Tweepy API, I was able to gate date from the curated list and extract the stock tickers through cashtags. Here are the most mentioned tickers for the test time period: 
+
 
 <img src ="Photos/tickers_symbols.png" alt="twitter" width="250"/>
 
