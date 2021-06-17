@@ -1,5 +1,5 @@
 
-<img src ="Photos/twitter_stock_influencers.jpg" alt="twitter" width="750"/>
+<img src ="Photos/stocks.png" alt="twitter" width="950"/>
 
 # Twitter Stock Screener
 
@@ -21,7 +21,7 @@ From our date the most discussed stocks were AAPL, TSLA, CCIV, GME and AMC.
 
 ## 2. Tools used
 
-<img src ="Photos/twitter_bird.png" alt="twitter" width="750"/>
+<img src ="Photos/twitter.png" alt="twitter" width="950"/>
 
 In order to run the notebook with the code, you need a twitter developer account, after being approved, you will receive consumer keys, consumer_secrets, access_token and access_token_secret to access the API. Here is a link to help you start learning about the Twitter API, [Twitter Starter Guide.](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
 Once you have the keys, you must create a file called API.env on the same folder you are running the notebook with the following:
